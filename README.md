@@ -1,4 +1,4 @@
-# Installazione Magento
+# Installazione Magento con Composer
 
 ## Creare le Access keys
 
