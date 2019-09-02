@@ -4,8 +4,11 @@
  - [Installazione estensioni](https://github.com/ortoDev/magento-with-composer#installazione-estensioni-con-composer)
 
 ## Installazione Magento con Composer
+- [Creare le Access Keys](https://github.com/ortoDev/magento-with-composer#creare-le-access-keys)
+- [Creare il progetto Magento](https://github.com/ortoDev/magento-with-composer#creare-il-progetto-magento)
+- [Installare con Web Setup Wizard](https://github.com/ortoDev/magento-with-composer#installare-magento-con-web-setup-wizard)
 
-### Creare le Access keys
+#### Creare le Access keys
 
 1. Loggarsi nel marketplace di [Magento](https://marketplace.magento.com)
 2. Cliccare sull'account name in alto a destra della pagina e seleziona My Profile.
@@ -14,7 +17,7 @@
 5. Verrà generata una chiave pubblica e una privata associate a questo account, da utilizzare come username e password del composer.
 
 
-### Creare il progetto Magento
+#### Creare il progetto Magento
 1. Scaricare magento dal repository con composer:
 
 ```
@@ -31,7 +34,7 @@ chown -R :www-data . # Ubuntu
 chmod u+x bin/magento
 ```
 
-### Installare Magento con Web Setup Wizard
+#### Installare Magento con Web Setup Wizard
 
 Navigare all' url del sito /setup
 ```
@@ -53,3 +56,4 @@ composer update
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
+4. Pulire la cache e verificare l' installazione del modulo
