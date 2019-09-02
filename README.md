@@ -10,7 +10,17 @@
 
 
 ## Creare il progetto Magento
+Eseguire il seguente comando composer:
 
 ```
  composer create-project --repository=https://repo.magento.com/ magento/project-community-edition <install-directory-name>
+```
+
+Settare i permessi per file e cartelle: 
+````
+cd /var/www/html/<magento install directory>
+find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
+find var generated vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} +
+chown -R :www-data . # Ubuntu
+chmod u+x bin/magento
 ```
