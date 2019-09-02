@@ -29,7 +29,7 @@ chmod u+x bin/magento
 ## Installare Magento con Web Setup Wizard
 
 Navigare all' url del sito /setup
-````
+```
 http://<Magento-host-or-IP>/<path-to-magento-root>/setup
 ```
 Seguire gli step di installazione
