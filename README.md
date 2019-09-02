@@ -10,17 +10,26 @@
 
 
 ## Creare il progetto Magento
-Eseguire il seguente comando composer:
+1. Scaricare magento dal repository con composer:
 
 ```
  composer create-project --repository=https://repo.magento.com/ magento/project-community-edition <install-directory-name>
 ```
+Come **username** inserire la chiave pubblica creata nel marketplace e come **password** la chiave privata.
 
-Settare i permessi per file e cartelle: 
-````
+2. Settare i permessi per file e cartelle: 
+```
 cd /var/www/html/<magento install directory>
 find var generated vendor pub/static pub/media app/etc -type f -exec chmod g+w {} +
 find var generated vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} +
 chown -R :www-data . # Ubuntu
 chmod u+x bin/magento
 ```
+
+## Installare Magento con Web Setup Wizard
+
+Navigare all' url del sito /setup
+````
+http://<Magento-host-or-IP>/<path-to-magento-root>/setup
+```
+Seguire gli step di installazione
