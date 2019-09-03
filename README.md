@@ -2,6 +2,7 @@
 
  - [Installazione Magento](https://github.com/ortoDev/magento-with-composer#installazione-magento-con-composer)
  - [Installazione estensioni](https://github.com/ortoDev/magento-with-composer#installazione-estensioni-con-composer)
+ - [Installazione pacchetto lingua italiana](https://github.com/ortoDev/magento-with-composer/blob/master/README.md#installazione-pacchetto-lingia-italiana)
 
 ## Installazione Magento con Composer
 - [Creare le Access Keys](https://github.com/ortoDev/magento-with-composer#creare-le-access-keys)
@@ -58,9 +59,11 @@ php bin/magento setup:di:compile
 ```
 4. Pulire la cache e verificare l' installazione del modulo
 
-## Installazione pacchetto lingia italiana
+## Installazione pacchetto lingua italiana
 
-- [Scaricare il pacchetto via composer]()
+- [Scaricare il pacchetto via composer](https://github.com/ortoDev/magento-with-composer/blob/master/README.md#scaricare-il-pacchetto-via-composer)
+- [Deploy dei file statici](https://github.com/ortoDev/magento-with-composer/blob/master/README.md#deploy-dei-file-statici)
+- [Reindex e pulizia cache](https://github.com/ortoDev/magento-with-composer/blob/master/README.md#reindex-e-pulizia-cache)
 
 #### Scaricare il pacchetto via composer
 ```
