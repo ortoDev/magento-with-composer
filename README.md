@@ -2,7 +2,7 @@
 
  - [Installazione Magento](https://github.com/ortoDev/magento-with-composer#installazione-magento-con-composer)
  - [Installazione estensioni](https://github.com/ortoDev/magento-with-composer#installazione-estensioni-con-composer)
- - [Installazione pacchetto lingua italiana](https://github.com/ortoDev/magento-with-composer/blob/master/README.md#installazione-pacchetto-lingia-italiana)
+ - [Installazione pacchetto lingua italiana](https://github.com/ortoDev/magento-with-composer/blob/master/README.md#installazione-pacchetto-lingua-italiana)
 
 ## Installazione Magento con Composer
 - [Creare le Access Keys](https://github.com/ortoDev/magento-with-composer#creare-le-access-keys)
