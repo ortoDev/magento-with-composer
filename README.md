@@ -57,3 +57,25 @@ php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
 4. Pulire la cache e verificare l' installazione del modulo
+
+## Installazione pacchetto lingia italiana
+
+- [Scaricare il pacchetto via composer]()
+
+#### Scaricare il pacchetto via composer
+```
+composer require mageplaza/magento-2-italian-language-pack:dev-master
+```
+
+#### Deploy dei file statici
+```
+php bin/magento setup:static-content:deploy
+php bin/magento setup:static-content:deploy it_IT
+```
+
+#### Reindex e pulizia cache
+```
+php bin/magento indexer:reindex
+php bin/magento cache:clean
+php bin/magento cache:flush
+```
